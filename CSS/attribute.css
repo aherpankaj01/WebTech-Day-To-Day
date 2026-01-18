@@ -1,0 +1,23 @@
+input[type] {
+    border: 5px solid red;
+}
+
+input[type="email"] {
+    border: 2px dotted blue;
+}
+
+div[id^="box_1"] {
+    height: 100px;
+    width: 100px;
+    border: 5px solid purple;
+}
+div[id*="container"] {
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(167, 186, 30);
+}
+div[id$="div3"] {
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgb(89, 27, 212);
+}

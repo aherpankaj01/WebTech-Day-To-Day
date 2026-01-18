@@ -1,0 +1,88 @@
+#myntra_header {
+    height: 100px;
+    width: 100%;
+    /*border: 5px solid black;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+#logo_links {
+    height: 95px;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#search_bar {
+    height: 95px;
+    width: 30%;
+    /*border: 2px solid black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#icons {
+    height: 95px;
+    width: 20%;
+    /*border: 2px solid black;*/
+    display: flex;
+    align-items: center;
+
+}
+
+#links {
+    height: inherit;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search_icon {
+    height: 38px;
+    width: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+
+
+}
+
+input {
+    height: 40px;
+    width: 90%;
+    outline: none;
+    border: 1px solid;
+    border-left: none;
+}
+
+#magnifying_glass {
+    font-size: 20px;
+}
+
+.my_icons {
+    height: 60px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile, #Watchlist, #Bags {
+    font-size: 25px;
+}

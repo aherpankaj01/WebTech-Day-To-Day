@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(217, 212, 212);
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+    animation-direction: alternate;
+
+}
+
+@keyframes box {
+    
+
+    0% {
+        background-color: yellow;
+        transform: translate(0px, -300px) rotate(360deg);
+    }
+
+    25% {
+        background-color: green;
+        transform: translate(300px, -300px) rotate(360deg);
+    }
+
+    75% {
+        background-color: blue;
+        transform: translate(300px, 0px) rotate(360deg);
+    }
+    100% {
+        background-color: violet;
+        transform: translate(0,0) rotate(360deg);
+    }
+}
+
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}

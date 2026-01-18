@@ -1,0 +1,24 @@
+h1::first-letter {
+    color: red;
+}
+
+h1::before {
+    content: "hello";
+}
+
+h1::after {
+    background-color: blue;
+}
+
+p::first-line {
+    background-color: blue;
+}
+
+p::selection {
+    background-color: green;
+}
+
+input::placeholder {
+    color: red;
+}
+
