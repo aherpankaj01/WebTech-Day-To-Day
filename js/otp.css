@@ -1,0 +1,28 @@
+#div1 {
+    height: 500px;
+    width: 100%;
+    border: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#otpinput {
+    height: 60px;
+    width: 500px;
+}
+
+#button1 {
+    height: 60px;
+    width: 200px;
+}
+
+#button2 {
+    height: 60px;
+    width: 200px;
+}
+
+#entNum {
+    height: 60px;
+    width: 500px;
+}

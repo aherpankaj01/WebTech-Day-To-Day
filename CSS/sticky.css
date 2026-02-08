@@ -1,0 +1,46 @@
+#header {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+}
+
+#container {
+    height: 900px;
+    width: 100%;
+    background-color: black;
+}
+
+#footer {
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+}
+
+#box1 {
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+    margin-top: 120px;
+}
+
+#box2 {
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+    position: sticky;
+    top: 0px;
+}
+
+#box2:hover {
+    background-color: brown;
+    
+   
+}
+
+#box1:hover {
+    background-color: brown;
+   
+   
+}

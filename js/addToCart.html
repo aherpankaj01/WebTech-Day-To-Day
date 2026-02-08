@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <link rel="stylesheet" href="./addToCart.css">
+</head>
+<body>
+
+    <!-- TOP BAR -->
+    <section id="sec1">
+        <button onclick="showCart()"><h2>Show Cart</h2></button>
+        <button onclick="showProducts()"><h2>Show Products</h2></button>
+    </section>
+
+    <!-- CART SECTION -->
+    <section id="cart" style="display:none;">
+        <h2>My Cart</h2>
+        <article id="cartItems"></article>
+    </section>
+
+    <br><br>
+
+    <!-- PRODUCTS SECTION -->
+    <section id="sec2">
+        <div>
+            <h1>Washing Machine</h1>
+            <button onclick="addToCart('Washing Machine')">Add to cart</button>
+        </div>
+        <div>
+            <h1>Shirt</h1>
+            <button onclick="addToCart('Shirt')">Add to cart</button>
+        </div>
+        <div>
+            <h1>Pant</h1>
+            <button onclick="addToCart('Pant')">Add to cart</button>
+        </div>
+        <div>
+            <h1>AC</h1>
+            <button onclick="addToCart('AC')">Add to cart</button>
+        </div>
+        <div>
+            <h1>cooler</h1>
+            <button onclick="addToCart('AC')">Add to cart</button>
+        </div>
+        <div>
+            <h1>Watch</h1>
+            <button onclick="addToCart('Watch')">Add to cart</button>
+        </div>
+        <div>
+            <h1>Shoes</h1>
+            <button onclick="addToCart('Shoes')">Add to cart</button>
+        </div>
+    </section>
+
+    <script src="./addToCart.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+#box1 {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+#box2 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(38, 21, 226);
+    padding: 20px;
+}
+
+#box3 {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(205, 35, 38);
+    padding: 20px;
+}

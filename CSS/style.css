@@ -1,0 +1,38 @@
+#heading {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    word-spacing: 50px;
+}
+
+
+#pas {
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    text-decoration-color: blue;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px;
+    word-spacing: 50px;
+ }
+
+#box1 {
+    height: 300px;
+    width: 300px;
+    border-width: 15px;
+    border-style: dotted;
+    border-color: aqua;
+    border-right-color: blueviolet;
+    border-left-color: brown;
+    border-radius: 70px 0px 70px 0px;
+    border-radius: 100%;
+ }
+
+ img {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+ }
