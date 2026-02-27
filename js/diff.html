@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 class="classname">hello</h1>
+    <h1 class="classname">hiiiiiii</h1>
+    <h1 class="classname">hyeeee</h1>
+
+
+    <script>
+        let collectionbox= document.getElementsByClassName("box")
+        let nodelist= document.querySelectorAll(".box")
+
+        let div= document.createElement("div")
+
+        div.className="box";
+        div.style.height="200px";
+        div.style.width= "200px"
+        div.style.backgroundColor="red";
+
+        document.body.append(div)
+        console.log(collectionbox);
+        console.log(nodelist)
+
+
+        let htmlcollection= document.getElementsByClassName("classname")
+        let node= document.querySelectorAll(".classname")
+        console.log(htmlcollection)
+        console.log(node)
+
+        node.forEach((ele) => {
+            ele.style.color="red"
+        })
+
+
+        for(let i=0; i<htmlcollection.length; i++) {
+     htmlcollection[i].style.backgroundColor="green"
+        }
+
+    </script>
+</body>
+</html>

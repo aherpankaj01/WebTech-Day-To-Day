@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        let obj = {
+            name:"pankaj",
+            age:23,
+            city: "pune"
+        }
+
+        for (let key in obj) {
+            console.log(key , ":" , obj[key])
+        }
+
+
+        let arr=[10,202,30,40,50,60]
+
+        for(let one in arr) {
+            console.log(arr[one])
+        }
+
+
+        for (let two of arr) {
+            console.log(two)
+        }
+    </script>
+    
+</body>
+</html>
